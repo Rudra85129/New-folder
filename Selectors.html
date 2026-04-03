@@ -21,6 +21,15 @@ input {
 li:nth-child(2n){
     color: blue;
 }
+p::before{
+    content: "My Name is ";
+}
+p::after{
+    content: " and I am a Web Developer";
+}
+p::first-letter{
+    font-size: 50px;
+}
 </style>
 <body>
     <input type="text"><br><br>
@@ -34,6 +43,7 @@ li:nth-child(2n){
         <li>Jai Brahma Dev</li>
         <li>Shree Ganesh</li>
         <li>Shree Kartikeya</li>
-    </ul>
+    </ul><br><br>
+    <p>Rudra Patel</p><br><br>
 </body>
 </html>
